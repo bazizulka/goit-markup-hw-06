@@ -719,3 +719,8 @@ span {
     fill: rgba(255, 255, 255, 1);
 
 }
+.modal-head {
+    font-family: 'Roboto', Sans-Serif;
+    align-items: center;
+    font-size: 16px;
+}
