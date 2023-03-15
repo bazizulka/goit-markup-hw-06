@@ -697,7 +697,7 @@ span {
     transition-property: color, background-color;
     
 }
-.modal-close:focus
+.modal-close:focus,
 .modal-close:hover {
     color: var(--white);
     background-color: rgba(64, 75, 191, 1);
@@ -705,10 +705,11 @@ span {
 }
 
     
-.modal-close-svg {width: 8px;
+.modal-close-svg {
+    width: 8px;
     height: 8px;
-    fill: var(--brand-color);
-    transition-duration: 250ms;
+    fill: currentColor;
+    transition-duration: 2500ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;
 }
