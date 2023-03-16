@@ -417,9 +417,19 @@
           <input id="phone" type="text" name="phone" />
           <label for="email">Email</label>
           <input id="email" type="text" name="email" />
-          <label for="email">Comment</label>
-          <input id="email" type="text" name="email" />
-          <button type="submit"></button>
+          <label for="user-comment"> Comment</label>
+          <form name="Comment" id="" cols="30" rows="10">
+            <textarea
+              class="user-comment"
+              name="user-comment"
+              id="user-comment"
+              placeholder="Text input"
+            >
+            </textarea>
+          </form>
+          <input type="checkbox" name="Accept" />I accept the terms and
+          conditions of the Privacy Policy
+          <button class="modal-send" type="submit">Send</button>
         </form>
       </div>
     </div>

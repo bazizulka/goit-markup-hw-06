@@ -720,7 +720,9 @@ span {
 
 }
 .modal-head {
+    padding-top: 72px;
     font-family: 'Roboto', Sans-Serif;
+    text-align: center;
     align-items: center;
     font-size: 16px;
 }
