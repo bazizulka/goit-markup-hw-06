@@ -726,3 +726,26 @@ span {
     align-items: center;
     font-size: 16px;
 }
+.user-comment{
+    resize: none;
+    width: 360px;
+    height: 120px;
+    border: var(--hero-background);
+    border-radius: 4px;
+}
+label{
+    display: block;
+}
+.subscribe-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-div{
+    display: flex;
+    justify-content: space-between;
+}
+.button-subscribe {
+    background-color: var(--pressed-state);
+    color: var(--white);
+}

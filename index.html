@@ -390,13 +390,21 @@
             </li>
           </ul>
         </div>
-        <div>
+        <div class="Subsribe-footer">
           <p class="footer-title">Subscribe</p>
-          <form>
-            <label for="user-email">Email</label>
-            <input type="email" name="email" id="user-email" />
-          </form>
-          <button class="button-subscribe" type="submit" ;></button>
+          <div class="subscribe-div">
+            <form>
+              <label for="user-email"></label>
+              <input
+                type="email"
+                name="user-email"
+                id="user-email"
+                placeholder="E-mail"
+              />
+            </form>
+
+            <button class="button-subscribe" type="submit">Subscribe</button>
+          </div>
         </div>
       </div>
     </footer>
@@ -412,11 +420,21 @@
         </h2>
         <form name="contact-form" autocomplete="off" novalidate>
           <label for="user-name">Name</label>
-          <input id="user-name" type="text" name="user-name" />
+          <input
+            id="user-name"
+            type="text"
+            name="user-name"
+            placeholder="username"
+          />
           <label for="phone">Phone</label>
-          <input id="phone" type="text" name="phone" />
+          <input
+            id="phone"
+            type="text"
+            name="phone"
+            placeholder="phone number"
+          />
           <label for="email">Email</label>
-          <input id="email" type="text" name="email" />
+          <input id="email" type="text" name="email" placeholder="email" />
           <label for="user-comment"> Comment</label>
           <form name="Comment" id="" cols="30" rows="10">
             <textarea
