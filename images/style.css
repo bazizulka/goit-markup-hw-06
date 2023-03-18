@@ -15,6 +15,14 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+.icon-email {
+  width: 1.3330078125em;
+}
+
+.icon-subscribe {
+  width: 1.2001953125em;
+}
+
 .icon-anten {
   width: 0.9375em;
 }

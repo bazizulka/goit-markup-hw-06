@@ -393,9 +393,10 @@
         <div class="Subsribe-footer">
           <p class="footer-title">Subscribe</p>
           <div class="subscribe-div">
-            <form>
+            <form class="footer-form">
               <label for="user-email"></label>
               <input
+                class="footer-input"
                 type="email"
                 name="user-email"
                 id="user-email"
@@ -403,7 +404,12 @@
               />
             </form>
 
-            <button class="button-subscribe" type="submit">Subscribe</button>
+            <button class="button-subscribe" type="submit">
+              Subscribe
+              <svg class="subscribe-svg">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
           </div>
         </div>
       </div>

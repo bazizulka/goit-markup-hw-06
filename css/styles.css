@@ -644,6 +644,9 @@ span {
     height: 24px;
     fill: var(--light);
 }
+.social-footer {
+    margin-right: 88px;
+}
 /*modal*/
 .backdrop {
     position: fixed;
@@ -743,9 +746,30 @@ label{
 }
 .subscribe-div{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 .button-subscribe {
+    display: flex;
+    align-items: center;
     background-color: var(--pressed-state);
     color: var(--white);
+    width: 165px;
+    height: 40px;
+}
+.subscribe-svg{
+    width: 24px;
+    height: 20px;
+    fill: var(--white);
+}
+.footer-form {
+    margin-right: 24px;
+}
+.footer-input{
+    width: 264px;
+    height: 40px;
+    background-color: var(--brand-color);
+    color: var(--white);
+    font-size: 12px;
+    line-height: 1.5;
 }
