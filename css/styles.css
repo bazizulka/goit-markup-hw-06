@@ -667,6 +667,7 @@ span {
     pointer-events: none;
 }
 .modal{
+    display: flex;
     position: relative;
     overflow: auto;
     width: 100%;
@@ -729,6 +730,14 @@ span {
     align-items: center;
     font-size: 16px;
 }
+.modal-send {
+    background-color: var(--pressed-state);
+        color: var(--white);
+        width: 169px;
+        height: 56px;
+        padding-left: 16 24;
+        cursor: pointer;
+}
 .user-comment{
     resize: none;
     width: 360px;
@@ -756,14 +765,24 @@ label{
     color: var(--white);
     width: 165px;
     height: 40px;
+    padding-left: 24px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
 }
 .subscribe-svg{
     width: 24px;
     height: 20px;
     fill: var(--white);
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 24px;
 }
 .footer-form {
     margin-right: 24px;
+    border-radius: 4px;
+    border: var(--white)
 }
 .footer-input{
     width: 264px;
@@ -772,4 +791,6 @@ label{
     color: var(--white);
     font-size: 12px;
     line-height: 1.5;
+    border: var(--white);
+    border-radius: 4px;
 }
