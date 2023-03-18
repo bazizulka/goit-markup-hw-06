@@ -667,7 +667,6 @@ span {
     pointer-events: none;
 }
 .modal{
-    display: flex;
     position: relative;
     overflow: auto;
     width: 100%;
