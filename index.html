@@ -425,22 +425,35 @@
           Leave your contacts and we will call you back
         </h2>
         <form name="contact-form" autocomplete="off" novalidate>
-          <label for="user-name">Name</label>
-          <input
-            id="user-name"
-            type="text"
-            name="user-name"
-            placeholder="username"
-          />
+          <label class="form-dield-label" for="user-name">Name</label>
+          <div class="form-field-div">
+            <input
+              class="form-input"
+              id="user-name"
+              type="text"
+              name="user-name"
+              placeholder="username"
+            />
+            <svg class="modal-name-svg">
+              <use href="./images/icons.svg#icon-name"></use>
+            </svg>
+          </div>
           <label for="phone">Phone</label>
           <input
+            class="form-input"
             id="phone"
             type="text"
             name="phone"
             placeholder="phone number"
           />
           <label for="email">Email</label>
-          <input id="email" type="text" name="email" placeholder="email" />
+          <input
+            class="form-input"
+            id="email"
+            type="text"
+            name="email"
+            placeholder="email"
+          />
           <label for="user-comment"> Comment</label>
           <form name="Comment" id="" cols="30" rows="10">
             <textarea

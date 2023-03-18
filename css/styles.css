@@ -760,7 +760,7 @@ label{
 .button-subscribe {
     display: flex;
     align-items: center;
-    background-color: var(--pressed-state);
+    background-color: var(--primary-Brand);
     color: var(--white);
     width: 165px;
     height: 40px;
@@ -768,6 +768,10 @@ label{
     padding-top: 8px;
     padding-bottom: 8px;
     cursor: pointer;
+    border-radius: 4px;
+    border: 1px;
+    border-color: var(--primary-Brand);
+    
 }
 .subscribe-svg{
     width: 24px;
@@ -781,15 +785,26 @@ label{
 .footer-form {
     margin-right: 24px;
     border-radius: 4px;
-    border: var(--white)
+    background-color: transparent;
 }
 .footer-input{
     width: 264px;
     height: 40px;
-    background-color: var(--brand-color);
+    background-color: transparent;
     color: var(--white);
     font-size: 12px;
     line-height: 1.5;
-    border: var(--white);
+    border-color: var(--white);
     border-radius: 4px;
 }
+.form-field-div {
+    position: relative;
+}
+.form-dield-label{
+    display: block;
+}
+.modal-name-svg {
+    position: absolute;
+    left: 0;
+    width: 12px;
+    height: 12px;}
