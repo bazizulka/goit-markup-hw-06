@@ -712,7 +712,7 @@ span {
     width: 8px;
     height: 8px;
     fill: currentColor;
-    transition-duration: 2500ms;
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;
 }
@@ -750,7 +750,7 @@ span {
     resize: none;
     width: 360px;
     height: 120px;
-    border: var(--hero-background);
+    border: 1px var(--hero-background);
     border-radius: 4px;
 }
 label{
@@ -811,13 +811,17 @@ label{
     position: relative;
     border-color: var(--brand-color);
 }
-.form-dield-div:hover 
-.form-dield-div:focus {
+.form-field-div:hover 
+.form-field-div:focus {
     border-color: var(--primary-Brand);
 }
-.form-dield-label{
+.form-field-label{
     display: block;
     
+    
+}
+.form-input{
+    padding-left: 20px;
 }
 
 .modal-name-svg {
@@ -825,7 +829,8 @@ label{
     left: 0;
     width: 12px;
     height: 12px;
-    transition-duration: 2500ms;
+    fill: var(--brand-color);
+    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;
 }
