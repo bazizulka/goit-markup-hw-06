@@ -730,12 +730,21 @@ span {
     font-size: 16px;
 }
 .modal-send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--pressed-state);
+    border: 1px solid var(--pressed-state);
+    border-radius: 4px;
         color: var(--white);
         width: 169px;
         height: 56px;
-        padding-left: 16 24;
         cursor: pointer;
+}
+.modal-button-send{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .user-comment{
     resize: none;
@@ -797,14 +806,31 @@ label{
     border-color: var(--white);
     border-radius: 4px;
 }
+
 .form-field-div {
     position: relative;
+    border-color: var(--brand-color);
+}
+.form-dield-div:hover 
+.form-dield-div:focus {
+    border-color: var(--primary-Brand);
 }
 .form-dield-label{
     display: block;
+    
 }
+
 .modal-name-svg {
     position: absolute;
     left: 0;
     width: 12px;
-    height: 12px;}
+    height: 12px;
+    transition-duration: 2500ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: fill;
+}
+.modal-name-svg:hover
+.modal-name-svg:focus
+ {
+    fill: var(--primary-Brand);
+}
