@@ -812,8 +812,8 @@ label{
     border-color: var(--brand-color);
     margin-left: 24px;
 }
-.form-field-div:hover 
-.form-field-div:focus {
+.form-field-div:focus-within .modal-name-svg {
+    fill: var(--primary-Brand);
     border-color: var(--primary-Brand);
 }
 .form-field-label{
@@ -828,6 +828,7 @@ label{
 
 .modal-name-svg {
     position: absolute;
+    top: 7px;
     left: 0;
     margin-left: 3px;
     width: 12px;
