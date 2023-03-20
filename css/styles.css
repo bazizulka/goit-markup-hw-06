@@ -838,11 +838,6 @@ label{
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;
 }
-.modal-name-svg:hover
-.modal-name-svg:focus
- {
-    fill: var(--primary-Brand);
-}
 .modal-textarea{
     margin-left: 24px;
 }
