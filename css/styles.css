@@ -847,3 +847,8 @@ label{
 .modal-textarea{
     margin-left: 24px;
 }
+textarea {
+    resize: none;
+    width: 360px;
+    height: 120px;
+}
