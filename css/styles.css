@@ -746,13 +746,7 @@ span {
     justify-content: center;
     align-items: center;
 }
-.user-comment{
-    resize: none;
-    width: 360px;
-    height: 120px;
-    border: 1px var(--hero-background);
-    border-radius: 4px;
-}
+
 label{
     display: block;
 }
@@ -851,4 +845,6 @@ textarea {
     resize: none;
     width: 360px;
     height: 120px;
+    border: 1px var(--hero-background);
+    border-radius: 4px;
 }
