@@ -824,12 +824,18 @@ label{
 }
 .form-input{
     padding-left: 20px;
+    outline-color:var(--modal-overlay);
+    width: 360px;
+    height: 40px;
+}
+.form-input:focus{
+    outline-color: var(--brand-color);
 }
 
 .modal-name-svg {
     position: absolute;
-    top: 7px;
-    left: 0;
+    top: 13px;
+    left: 2px;
     margin-left: 3px;
     width: 12px;
     height: 12px;
