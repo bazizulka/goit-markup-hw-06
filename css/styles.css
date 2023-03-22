@@ -845,6 +845,8 @@ textarea {
     resize: none;
     width: 360px;
     height: 120px;
-    border: 1px var(--hero-background);
     border-radius: 4px;
+}
+.checkbox-div input[type='checkbox'] {
+
 }
