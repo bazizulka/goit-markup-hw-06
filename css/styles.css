@@ -760,7 +760,7 @@ label{
     align-items: center;
     justify-content: space-between;
 }
-.button-subscribe {
+.button-subscribe{
     display: flex;
     align-items: center;
     background-color: var(--primary-Brand);
@@ -785,7 +785,7 @@ label{
     margin-bottom: 10px;
     margin-right: 24px;
 }
-.footer-form {
+.footer-form{
     margin-right: 24px;
     border-radius: 4px;
     background-color: transparent;
@@ -801,20 +801,18 @@ label{
     border-radius: 4px;
 }
 
-.form-field-div {
+.form-field-div{
     position: relative;
     border-color: var(--brand-color);
     margin-left: 24px;
 }
-.form-field-div:focus-within .modal-name-svg {
+.form-field-div:focus-within .modal-name-svg{
     fill: var(--primary-Brand);
     border-color: var(--primary-Brand);
 }
 .form-field-label{
     display: block;
     margin-left: 24px;
-    
-    
 }
 .form-input{
     padding-left: 20px;
@@ -826,7 +824,7 @@ label{
     outline-color: var(--brand-color);
 }
 
-.modal-name-svg {
+.modal-name-svg{
     position: absolute;
     top: 13px;
     left: 2px;
@@ -841,12 +839,12 @@ label{
 .modal-textarea{
     margin-left: 24px;
 }
-textarea {
+textarea{
     resize: none;
     width: 360px;
     height: 120px;
     border-radius: 4px;
 }
-.checkbox-div input[type='checkbox'] {
+.checkbox-div input[type='checkbox']{
 
 }
