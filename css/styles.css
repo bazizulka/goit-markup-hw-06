@@ -819,8 +819,12 @@ label{
     outline-color:var(--modal-overlay);
     width: 360px;
     height: 40px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: outline-color;
 }
-.form-input:focus{
+.form-input:focus
+.form-input:hover{
     outline-color: var(--brand-color);
 }
 
