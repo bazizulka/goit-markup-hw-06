@@ -816,16 +816,12 @@ label{
 }
 .form-input{
     padding-left: 20px;
-    outline-color:var(--modal-overlay);
+    outline-color:var(--primary-Brand);
     width: 360px;
     height: 40px;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: outline-color;
-}
-.form-input:focus
-.form-input:hover{
-    outline-color: var(--brand-color);
 }
 
 .modal-name-svg{
@@ -848,7 +844,9 @@ textarea{
     width: 360px;
     height: 120px;
     border-radius: 4px;
+    outline-color: var(--primary-Brand);
 }
+
 .checkbox-div input[type='checkbox']{
 
 }
