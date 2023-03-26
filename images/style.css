@@ -23,6 +23,10 @@ Single-colored icons can be modified like so:
   width: 1.2001953125em;
 }
 
+.icon-checbox-on {
+  width: 1.25em;
+}
+
 .icon-anten {
   width: 0.9375em;
 }
