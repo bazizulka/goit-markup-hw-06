@@ -891,3 +891,16 @@ textarea{
 .privacy-link-text::before{
     content: icon;
 }
+.icon{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #FCFCFC;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+}
+.checkbox:checked + .icon {
+    background-color: var(--pressed-state);
+    background-image:url('/images/checkbox.svg');
+    background-size: contain;
+    background-origin: content-box;
