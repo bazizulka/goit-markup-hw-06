@@ -898,9 +898,9 @@ textarea{
     background-color: #FCFCFC;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
+    padding: 4px 3px;
 }
 .checkbox:checked + .icon {
     background-color: var(--pressed-state);
     background-image:url('/images/checkbox.svg');
     background-size: contain;
-    background-origin: content-box;
