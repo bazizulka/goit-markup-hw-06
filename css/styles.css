@@ -902,6 +902,9 @@ textarea{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .privacy-link-text::before{
     content: icon;
@@ -924,8 +927,6 @@ textarea{
     background-repeat: no-repeat;
     background-position: center;}
 
-.checkbox {
+.checkbox-label {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
