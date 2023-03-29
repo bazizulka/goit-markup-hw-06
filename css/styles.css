@@ -929,4 +929,5 @@ textarea{
 
 .checkbox-label {
     display: flex;
+    cursor: pointer;
 }
