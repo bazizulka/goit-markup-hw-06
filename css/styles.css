@@ -815,6 +815,10 @@ label{
     display: block;
     margin-left: 24px;
     color: var(--subtleText);
+    font-size: 12px;
+    line-height: 1.16;
+    padding-top: 8px;
+    padding-bottom: 4px;
 }
 .form-input{
     padding-left: 20px;
@@ -824,10 +828,17 @@ label{
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: outline-color;
+    font-size: 12px;
+    line-height: 1.16;
 }
 
 .form-label {
     color: var(--subtleText);
+    font-size: 12px;
+    line-height: 1.16;
+    padding-top: 8px;
+        padding-bottom: 4px;
+
 }
 
 .modal-name-svg{
@@ -852,6 +863,8 @@ textarea{
     border-radius: 4px;
     outline-color: var(--primary-Brand);
     padding-left: 16px;
+    font-size: 12px;
+    line-height: 1.16;
 }
 .textarea {
     color: rgba(46, 47, 66, 0.4);
@@ -868,12 +881,14 @@ textarea{
     height: 16px;
     flex-wrap: nowrap;
 }
+
     
 .privacy-link-text {
     font-size: 12px;
     line-height: 1.16;
     font-weight: 400;
     text-color:rgba(142, 143, 153, 1);
+    
 }
 
 .privacy-link {
@@ -899,8 +914,18 @@ textarea{
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     padding: 4px 3px;
+    margin-right: 8px;
 }
 .checkbox:checked + .icon {
     background-color: var(--pressed-state);
     background-image:url('/images/checkbox.svg');
     background-size: contain;
+    background-origin: content-box;
+    background-repeat: no-repeat;
+    background-position: center;}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
