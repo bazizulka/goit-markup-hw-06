@@ -692,7 +692,6 @@ span {
     height: 24px;
     top: 24px;
     right: 24px;
-    border: 1px;
     border-radius: 50%;
     cursor: pointer;
     color: var(--modal-overlay);
@@ -718,7 +717,6 @@ span {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: fill;
-    border-color: rgba(0, 0, 0, 0.1);
 }
 
 .modal-close-svg:focus 
@@ -752,7 +750,7 @@ span {
     font-family: inherit;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-property: background-color;
+    transition-property: background-color; 
             }
         
 .modal-send:hover {

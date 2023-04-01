@@ -423,8 +423,8 @@
         </button>
         <p class="modal-head">Leave your contacts and we will call you back</p>
         <form name="contact-form" autocomplete="off" novalidate>
-          <label class="form-field-label" for="user-name">Name</label>
-          <div class="form-field-div">
+          <label class="form-field-label" for="user-name">
+            <span>Name</span>
             <input
               class="form-input"
               id="user-name"
@@ -435,7 +435,8 @@
             <svg class="modal-name-svg">
               <use href="./images/icons.svg#icon-name"></use>
             </svg>
-          </div>
+          </label>
+
           <div>
             <label class="form-field-label" for="phone">Phone</label>
             <div class="form-field-div">
