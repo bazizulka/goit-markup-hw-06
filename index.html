@@ -424,18 +424,20 @@
         <form name="contact-form" autocomplete="off" novalidate>
           <label class="form-field-label" for="user-name">
             <span class="modal-form-input-span">Name</span>
-            <input
-              class="form-input"
-              type="text"
-              name="user-name"
-              required
-              pattern="[A-Za-zА-Яа-я0-9]+$"
-              minlength="2"
-              title="Ім'я не може бути меншим за 2 символи."
-            />
-            <svg class="modal-name-svg">
-              <use href="./images/icons.svg#icon-name"></use>
-            </svg>
+            <span class="modal-form-input-div">
+              <input
+                class="form-input"
+                type="text"
+                name="user-name"
+                required
+                pattern="[A-Za-zА-Яа-я0-9]+$"
+                minlength="2"
+                title="Ім'я не може бути меншим за 2 символи."
+              />
+              <svg class="modal-name-svg">
+                <use href="./images/icons.svg#icon-name"></use>
+              </svg>
+            </span>
           </label>
 
           <label class="form-field-label" for="phone"

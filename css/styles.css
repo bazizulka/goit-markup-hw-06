@@ -978,3 +978,7 @@ textarea{
     margin-bottom: 4px;
     color: rgba(142, 143, 153, 1);
 }
+.modal-form-input-div{
+    display: block;
+    position: relative ;
+}
