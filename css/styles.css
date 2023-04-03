@@ -426,7 +426,6 @@ span {
     height: 100%;
     transform: translateY(100%);
     transition: transform 250ms;
-    transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: all;
     
@@ -436,8 +435,8 @@ span {
     padding: 40px 32px 0px 32px;
 }
 
-.description-image:hover .description-div-text, 
-.description-image:focus .description-div-text {
+.album-list:hover .description-div-text, 
+.album-list:focus .description-div-text {
     transform: translateY(0%);
 }
 /*команда*/
