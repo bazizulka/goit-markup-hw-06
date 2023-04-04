@@ -834,6 +834,7 @@ label{
     border-color: var(--brand-color);
 }
 .form-field-label:focus-within .modal-name-svg{
+    outline: none;
     fill: var(--primary-Brand);
     border-color: var(--primary-Brand);
 }
@@ -915,7 +916,7 @@ textarea{
     font-size: 12px;
     line-height: 1.16;
     font-weight: 400;
-    text-color:rgba(142, 143, 153, 1);
+    color:rgba(142, 143, 153, 1);
     
 }
 
