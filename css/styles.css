@@ -287,6 +287,7 @@ span {
     gap: 24px;
 }
 .album-list {
+    cursor: pointer;
     flex-basis:calc((100% - 2*24px) / 3);}
 
 
@@ -468,6 +469,7 @@ span {
 }
 .team-members-class:last-child{
     padding-right: 0px;
+    margin-right: 0px;
 }
 
 .member-profession {
@@ -729,6 +731,8 @@ span {
     text-align: center;
     align-items: center;
     font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
 }
 .modal-send {
     display: flex;
@@ -779,11 +783,13 @@ label{
 .button-subscribe{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: var(--primary-Brand);
     color: var(--white);
     width: 165px;
     height: 40px;
     padding-left: 24px;
+    padding-right: 24px;
     padding-top: 8px;
     padding-bottom: 8px;
     cursor: pointer;
@@ -807,10 +813,6 @@ label{
     width: 24px;
     height: 20px;
     fill: var(--white);
-    margin-left: 16px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-right: 24px;
 }
 .footer-form{
     margin-right: 24px;
@@ -886,18 +888,13 @@ textarea{
     resize: none;
     width: 360px;
     height: 120px;
-    border-radius: 4px;
     outline-color: var(--primary-Brand);
-    padding-left: 16px;
     font-size: 12px;
     line-height: 1.16;
-    border-color: rgba(142, 143, 153, 1);
-}
-.textarea {
     color: rgba(46, 47, 66, 0.4);
     border-color: rgba(142, 143, 153, 1);
     border-radius: 4px;
-    padding: 8px; 16px;
+    padding: 8px 16px;
 }
 .checkbox-div input[type='checkbox']{
     display: flex;
@@ -951,9 +948,6 @@ textarea{
     clip: rect(0 0 0 0);
     overflow: hidden;
     
-}
-.privacy-link-text::before{
-    content: icon;
 }
 .icon{
     display: inline-block;
