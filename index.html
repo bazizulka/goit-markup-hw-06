@@ -394,7 +394,7 @@
           <p class="footer-title">Subscribe</p>
           <div class="subscribe-div">
             <form class="footer-form">
-              <label for="user-email"></label>
+              <label class="user-email-footer"></label>
               <input
                 class="footer-input"
                 type="email"
@@ -422,7 +422,7 @@
         </button>
         <p class="modal-head">Leave your contacts and we will call you back</p>
         <form name="contact-form" autocomplete="off" novalidate>
-          <label class="form-field-label" for="user-name">
+          <label class="form-field-label">
             <span class="modal-form-input-span">Name</span>
             <span class="modal-form-input-div">
               <input
@@ -440,33 +440,35 @@
             </span>
           </label>
 
-          <label class="form-field-label" for="phone"
+          <label class="form-field-label"
             ><span class="modal-form-input-span">Phone</span>
-
-            <input
-              class="form-input"
-              type="tel"
-              name="phone"
-              required
-              pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
-              minlength="13"
-              maxlength="13"
-              title="+xxx-xx-xxx-xx-xx"
-            />
-            <svg class="modal-name-svg">
-              <use href="./images/icons.svg#icon-phone-modal"></use>
-            </svg>
+            <span class="modal-form-input-div">
+              <input
+                class="form-input"
+                type="tel"
+                name="phone"
+                required
+                pattern="[\+]\d{3}\s[\(]\d{2}[\)]\s\d{3}[\-]\d{2}[\-]\d{2}"
+                minlength="13"
+                maxlength="13"
+                title="+xxx-xx-xxx-xx-xx"
+              />
+              <svg class="modal-name-svg">
+                <use href="./images/icons.svg#icon-phone-modal"></use>
+              </svg>
+            </span>
           </label>
 
-          <label class="form-field-label" for="email"
+          <label class="form-field-label"
             ><span class="modal-form-input-span">Email</span>
-
-            <input class="form-input" type="email" name="email" required />
-            <svg class="modal-name-svg">
-              <use href="./images/icons.svg#icon-email"></use>
-            </svg>
+            <span class="modal-form-input-div">
+              <input class="form-input" type="email" name="email" required />
+              <svg class="modal-name-svg">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </span>
           </label>
-          <label class="form-label" for="user-comment">
+          <label class="form-label">
             <span class="modal-form-input-span">Comment</span>
             <textarea
               class="textarea"
@@ -480,11 +482,7 @@
               ><input class="checkbox" type="checkbox" name="Accept" />
               <span class="icon"></span
             ></label>
-            <span
-              class="user-policy"
-              for="user-policy"
-              class="privacy-link-text"
-            >
+            <span class="user-policy">
               I accept the terms and conditions of the
               <a class="privacy-link" href="">Privacy Policy</a>
             </span>

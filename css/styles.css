@@ -760,6 +760,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 24px;
 }
 
 label{
@@ -857,15 +858,15 @@ label{
     line-height: 1.16;
     border: 1px solid rgba(142, 143, 153, 1) ;
     border-radius: 4px;
-    margin-bottom: 8px;
 }
 
 .form-label {
+    border-color: var(--brand-color);
     color: var(--subtleText);
     font-size: 12px;
     line-height: 1.16;
     padding-top: 8px;
-    padding-bottom: 4px;
+    margin-bottom: 16px;
 
 }
 
@@ -894,9 +895,9 @@ textarea{
 }
 .textarea {
     color: rgba(46, 47, 66, 0.4);
-    margin-bottom: 16px;
-        border-color: rgba(142, 143, 153, 1);
-        border-radius: 4px;
+    border-color: rgba(142, 143, 153, 1);
+    border-radius: 4px;
+    padding: 8px; 16px;
 }
 .checkbox-div input[type='checkbox']{
     display: flex;
@@ -911,14 +912,18 @@ textarea{
     flex-wrap: nowrap;
 }
 
-    
-.privacy-link-text {
+.checkbox-div{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.user-policy{
     font-size: 12px;
     line-height: 1.16;
     font-weight: 400;
-    color:rgba(142, 143, 153, 1);
-    
 }
+    
+    
 
 .privacy-link {
     font-size: 12px;
@@ -972,7 +977,6 @@ textarea{
     display: flex;
     cursor: pointer;
     margin-left: 24px;
-    margin-bottom: 24px;
 }
 .modal-form-input-span{
     display: block;
