@@ -907,10 +907,10 @@ textarea{
     width: 360px;
     height: 16px;
     flex-wrap: nowrap;
+    cursor: pointer;
 }
 
 .checkbox-div{
-    display: flex;
     margin-bottom: 24px;
 }
 
@@ -918,6 +918,7 @@ textarea{
     font-size: 12px;
     line-height: 1.16;
     font-weight: 400;
+    color: var(--subtleText);
 }
     
     
@@ -930,7 +931,7 @@ textarea{
     color: rgba(77, 90, 229, 1);
 
 }
-.checkbox {
+.checkbox .visually-hidden {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -947,9 +948,10 @@ textarea{
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+    cursor: pointer;
     
 }
-.icon{
+.checkbox-svg{
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -968,7 +970,6 @@ textarea{
 
 .checkbox-label {
     display: flex;
-    cursor: pointer;
     margin-left: 24px;
 }
 .modal-form-input-span{
