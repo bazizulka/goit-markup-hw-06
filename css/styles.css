@@ -959,9 +959,8 @@ textarea{
     padding: 4px 3px;
     margin-right: 8px;
 }
-.checkbox:checked + .icon {
+.checkbox:checked + .checkbox-svg {
     background-color: var(--pressed-state);
-    background-image:url('/images/checkbox.svg');
     background-size: contain;
     background-origin: content-box;
     background-repeat: no-repeat;
