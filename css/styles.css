@@ -898,20 +898,18 @@ textarea{
 }
 .checkbox-div input[type='checkbox']{
     display: flex;
-    margin-left: 24px;
     font-size: 12px;
     line-height: 1.16;
     font-weight: 400;
     align-items: center;
     justify-content: space-between;
-    width: 360px;
     height: 16px;
     flex-wrap: nowrap;
     cursor: pointer;
 }
 
-.checkbox-div{
-    margin-bottom: 24px;
+.checkbox-div {
+    display: flex;
 }
 
 .user-policy{
