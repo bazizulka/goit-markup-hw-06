@@ -908,16 +908,12 @@ textarea{
     cursor: pointer;
 }
 
-.checkbox-div {
-    display: flex;
+.checkbox-div {display: flex;
+    position: relative;
+    margin-bottom: 24px;
 }
 
-.user-policy{
-    font-size: 12px;
-    line-height: 1.16;
-    font-weight: 400;
-    color: var(--subtleText);
-}
+
     
     
 
@@ -927,40 +923,34 @@ textarea{
     font-weight: 400;
     text-decoration: underline;
     color: rgba(77, 90, 229, 1);
+    font-size: 12px;
+    line-height: 1.32;
+    margin-left: 8px;
+    transition-property: color, text-decoration;
+    transition-duration: 250ms;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-.checkbox .visually-hidden {
+.privacy-link:hover
+.privacylink:focus{
+        color: var(--pressed-state);
+        text-decoration: underline var(--pressed-state);
+}
+.checkbox{
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-    cursor: pointer;
     
 }
-.checkbox-svg{
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    background-color: #FCFCFC;
-    border: 1px solid rgba(46, 47, 66, 0.4);
-    border-radius: 2px;
-    padding: 4px 3px;
-    margin-right: 8px;
+.checkbox-svg{position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: var(--white);
 }
 .checkbox:checked + .checkbox-svg {
     background-color: var(--pressed-state);
+    border-color: var(--pressed-state);
     background-size: contain;
     background-origin: content-box;
     background-repeat: no-repeat;
@@ -978,4 +968,24 @@ textarea{
 .modal-form-input-div{
     display: block;
     position: relative ;
+}
+.icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid var(--primary-Brand);
+    transition-property: background-color, border-color;
+    transition-duration:250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.user-policy {
+    display: flex;
+    position: relative;
+    padding-left: 24px;
+    font-size: 12px;
+    line-height: 1.32;
+    color: var(--subtleText);
 }

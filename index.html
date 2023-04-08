@@ -478,20 +478,23 @@
             </textarea>
           </label>
           <div class="checkbox-div">
-            <input class="checkbox" type="checkbox" name="Accept" />
+            <input
+              class="checkbox"
+              type="checkbox"
+              id="checkbox-user"
+              name="Accept"
+            />
             <div class="icon">
               <svg class="checkbox-svg">
                 <use href="./images/icons.svg#icon-checbox-on"></use>
               </svg>
             </div>
-            <label class="user-policy">
+            <label for="checkbox-user" class="user-policy">
               I accept the terms and conditions of the</label
             >
             <a class="privacy-link" href="">Privacy Policy</a>
           </div>
-          <div class="modal-button-send">
-            <button class="modal-send" type="submit">Send</button>
-          </div>
+          <button class="modal-send" type="submit">Send</button>
         </form>
       </div>
     </div>
