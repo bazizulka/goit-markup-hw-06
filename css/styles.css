@@ -900,8 +900,16 @@ textarea{
     border-color: rgba(142, 143, 153, 1);
     border-radius: 4px;
     padding: 8px 16px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: border-color;
 }
-.checkbox-div input[type='checkbox']{
+.textarea:focus
+{
+border-color: var(--primary-Brand);}
+
+.checkbox-div input[type='checkbox']
+{
     display: flex;
     font-size: 12px;
     line-height: 1.16;
@@ -913,14 +921,12 @@ textarea{
     cursor: pointer;
 }
 
-.checkbox-div {display: flex;
+.checkbox-div 
+{display: flex;
     position: relative;
     margin-bottom: 24px;
 }
 
-
-    
-    
 
 .privacy-link {
     font-size: 12px;
@@ -937,9 +943,10 @@ textarea{
 
 }
 .privacy-link:hover
-.privacylink:focus{
-        color: var(--pressed-state);
-        text-decoration: underline var(--pressed-state);
+.privacylink:focus
+{
+    color: var(--pressed-state);
+    text-decoration: underline var(--pressed-state);
 }
 .checkbox{
     -webkit-appearance: none;
@@ -960,11 +967,7 @@ textarea{
     background-origin: content-box;
     background-repeat: no-repeat;
     background-position: center;}
-
-.checkbox-label {
-    display: flex;
-    margin-left: 24px;
-}
+ 
 .modal-form-input-span{
     display: block;
     margin-bottom: 4px;
