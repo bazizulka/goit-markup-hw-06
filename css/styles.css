@@ -916,17 +916,20 @@ border-color: var(--primary-Brand);}
 .modal-form-check-desc::before{
     width: 18px;height: 18px;
     border: 1px solid #303030;
-    display: block;
+    display: flex;
     cursor: pointer;
     border-radius: 4px;
     margin-right: 10px;
     content: '';
+    flex-wrap: nowrap;
     
-flex-wrap: nowrap;
+
 }
 .modal-form-check:checked + .modal-form-check-desc::before{
 background-color: var(--pressed-state);
 background-image: url(../images/checkbox-on.svg);
+background-repeat: no-repeat;
+background-position: center;
 }
 .modal-form-check:focus + .modal-form-check-desc::before {
     outline: 1px solid var(--pressed-state);
@@ -937,6 +940,7 @@ background-image: url(../images/checkbox-on.svg);
     font-size: 12px;
     line-height: 1.33;
     margin-bottom: 24px;
+    flex-wrap: nowrap;
 }
 /*modal-button-submit*/
 
