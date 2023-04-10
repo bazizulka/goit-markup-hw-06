@@ -477,24 +477,17 @@
             >
             </textarea>
           </label>
-          <div class="checkbox-div">
-            <input
-              class="checkbox"
-              type="checkbox"
-              id="checkbox-user"
-              name="Accept"
-            />
-            <div class="icon">
-              <svg class="checkbox-svg">
-                <use href="./images/icons.svg#icon-checbox-on"></use>
-              </svg>
-            </div>
-            <label for="checkbox-user" class="user-policy">
-              I accept the terms and conditions of the</label
-            >
-            <a class="privacy-link" href="">Privacy Policy</a>
-          </div>
-          <button class="modal-send" type="submit">Send</button>
+          <input
+            class="modal-form-check visually-hidden"
+            type="checkbox"
+            id="user-policy"
+            name="user-policy"
+          />
+          <label for="user-policy" class="modal-form-check-desc">
+            I accept the terms and conditions of the &nbsp;
+            <a class="privacy-link" href="">Privacy Policy</a></label
+          >
+          <button class="modal-form-submit" type="submit">Send</button>
         </form>
       </div>
     </div>
