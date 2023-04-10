@@ -960,6 +960,8 @@ background-position: center;
     line-height: 1.5;
     font-weight: 500;
     font-family: inherit;
+    display: block;
+        margin: 0 auto;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-property: background-color;
